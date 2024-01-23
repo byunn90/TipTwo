@@ -1,3 +1,10 @@
-.hh {
-  color: red;
+/* Form.css */
+.form-container {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+input {
+  flex: 0.2; /* Take up half of the space */
+  font-size: 20px; /* Adjust the font size as needed */
 }
