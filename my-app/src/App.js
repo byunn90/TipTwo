@@ -14,6 +14,7 @@ function TipCalculator() {
 
   function handleSubmit(e) {
     SetBillValue(e.target.value);
+    console.log(SetBillValue);
   }
 
   function Enjoyed(option) {
@@ -34,11 +35,7 @@ function TipCalculator() {
       <div className="form-container">
         <h1>How Much was the bill?</h1>
         <input text="text" value={billValue} onChange={handleSubmit} />
-        <h1>{SetBillValue}</h1>
-      </div>
-      <div className="">
-        <h1>How did you like the service?</h1>
-        <input />
+        <h1>{billValue}</h1>
       </div>
     </>
   );
